@@ -7,5 +7,15 @@
 
 ## App使用截图
 
-![https://github.com/sunquan291/game2048/blob/main/ScreenShots/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220814093214.jpg]()
+刚开始时，图片显示模糊状态
+
+![1](./ScreenShots/20220814093223.jpg)
+
+
+
+当得分越来越多时，照片清晰度则越来越高
+
+![1](./ScreenShots/20220814093214.jpg)
+
+
 
