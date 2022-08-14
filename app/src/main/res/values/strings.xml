@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game2048</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="score"> 得分:</string>
+    <string name="_0">0</string>
+    <string name="timer">计时器:</string>
+<!--    <string name="info">演悲欢离合，当代岂无前代事;观抑扬腐败，座中常有剧中人－约定291天后http://my.csdn.net/sunquan291</string>-->
+    <string name="info">约定291天后</string>
+    <string name="share">分享</string>
+    <string name="beautify">美女图片</string>
+</resources>

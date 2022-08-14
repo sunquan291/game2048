@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.livio.game2048.MainActivity" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="15sp" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80dp"
+                android:text="@string/timer"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/_0"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+        <Button
+                android:id="@+id/btnShare"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="40dp"
+                android:text="@string/share"
+                android:singleLine="true"
+                android:layout_height="35dp"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+        />
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/beauty"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_light"
+            android:src="@drawable/beautify1"
+            android:contentDescription="@string/beautify"/>
+
+<!--        <com.livio.game2048.CircleLabel-->
+<!--                android:id="@+id/gv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:text="@string/_0"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="15sp" />-->
+
+    <com.livio.game2048.GameView
+            android:id="@+id/gv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+    </com.livio.game2048.GameView>
+
+<!--        <com.livio.game2048.Card-->
+<!--                android:id="@+id/gv"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="1000dp"-->
+<!--                android:layout_weight="1" >-->
+<!--        </com.livio.game2048.Card>-->
+
+    <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/info"
+            android:textColor="@android:color/white"
+            android:textSize="20sp">
+    </TextView>
+
+</LinearLayout>
